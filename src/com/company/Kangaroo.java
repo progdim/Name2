@@ -1,15 +1,15 @@
 package com.company;
 
-public class Kenguru extends Animals{
+public class Kangaroo extends Animals{
     private String nameAnimal;
     private String property;
 
 
-    public Kenguru(String nameAnimal, String property) {
+    public Kangaroo(String nameAnimal, String property) {
         super(nameAnimal, property);
     }
 
-    public Kenguru() {
+    public Kangaroo() {
         super("Киг-го", "Бегает");
     }
 

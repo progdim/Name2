@@ -25,4 +25,7 @@ public class Animals {
     public void setMove(String move) {
         this.property = property;
     }
+    void sleep(){
+        System.out.println("Животное уснуло");
+    }
 }
